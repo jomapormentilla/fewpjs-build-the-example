@@ -7,7 +7,7 @@ const like = document.getElementsByClassName("like")
 const like_glyph = document.getElementsByClassName("like-glyph")
 const modal = document.getElementById("modal")
 
-document.addEventListener("DOMContentLoaded", () => {modal.classList.add('hidden')})
+modal.classList.add('hidden')
 
 for( const keys of like_glyph ){
   keys.addEventListener("click", () => {
